@@ -43,14 +43,14 @@ The script operates in phases:
    - The script then proceeds to the Pre-Process Phase.
 
 2. **Pre-Process Phase:**
-   - In this phase, the script prepares the images for processing.
+   - In this phase, the script prompts the user to choose the processing mode (Iteration or Parallel) and set the desired preset/command.
 
 3. **Process Phase:**
    - The script applies the chosen preset commands to each PNG in their respective folders using the `.exe` files.
    - The script performs this action either sequentially (Iteration Mode) or simultaneously (Parallel Mode).
 
 4. **Post-Process Phase:**
-   - After processing, the script performs any final actions required.
+   - After processing, the script creates a `TIMER.txt` file that contains information about the chosen mode, preset/command, and time elapsed.
 
 ## Reruns and Further Processing
 
@@ -85,6 +85,12 @@ This script provides a workaround for the limitations of having to apply changes
 The script utilizes `rdopng.exe` developed by [Rich Geldreich](https://github.com/richgel999). You can find the original repository at [https://github.com/richgel999/rdopng](https://github.com/richgel999/rdopng).
 
 If you encounter any issues or have questions, feel free to ask!
+
+---
+
+## Future Update Plans
+
+In the near future, I have plans to introduce a significant enhancement to the script. I'm actively working on integrating oxipng optimization for the processed PNGs. This addition aims to further compress the PNG files while maintaining their quality. Keep an eye out for updates!
 
 ---
 
