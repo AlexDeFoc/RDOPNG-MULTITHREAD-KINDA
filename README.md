@@ -45,6 +45,14 @@ To process more photos or redo the processing:
 
 ---
 
+## A Personal Note
+
+I'd like to share that I embarked on this project with minimal prior knowledge of Python; I was truly starting from scratch. Over the course of more than 12 hours, I worked diligently, learning as I went along. A huge shoutout goes to ChatGPT 3.5 for being an invaluable companion in guiding me through this process.
+
+Throughout this journey, I was reminded of the phrase that encapsulates the spirit of many programmers: **"PLS FIX MY ENTIRE CODE, CHAT GPT!!!"** While I didn't ask for complete fixes, the guidance and insights I received from ChatGPT were immensely helpful in achieving my goals.
+
+---
+
 ## Workaround and Limitations
 
 This script provides a workaround for the limitations of having to apply changes to only one photo at a time and being restricted to single-thread processing. It leverages the power of parallel and iteration modes to enable efficient handling of tasks involving multiple images.
