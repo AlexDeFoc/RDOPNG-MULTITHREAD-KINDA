@@ -33,6 +33,13 @@ When you follow these steps:
 
 **Note:** Ensure that the PNG file names do not contain symbols such as dots or other special characters, as these might cause issues. While I tested with dots and it broke the process, you can experiment at your own risk.
 
+## Time Reduction using Parallel Mode
+
+Using Parallel Mode offers significant time reductions:
+
+- For 2 photos: approximately 55.56% reduction in processing time (18 seconds in Iteration Mode vs. 8 seconds in Parallel Mode, tested on the fast preset).
+- For over 10 photos: approximately 82.25% reduction in processing time (1 minute 17 seconds in Iteration Mode vs. 17 seconds in Parallel Mode, tested on the fast preset).
+
 ## How the Script Works
 
 The script operates in phases:
