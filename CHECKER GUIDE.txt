@@ -1,0 +1,4 @@
+ready = pngs in main
+unready = no pngs
+absent = no folders
+present = folders in main
